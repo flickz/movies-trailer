@@ -6,6 +6,6 @@ class Movie():
         self.storyline = storyline
         self.cover_url = cover_url
         self.trailer_youtube_url = trailer_youtube_url
-    # open the thriller url
-    def open_thriller(self):
+    # open the trailer url
+    def open_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
